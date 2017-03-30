@@ -9,6 +9,7 @@ This python application is an implementation of Gaussian process regression mode
 3. Find output for given input vector by using the parameter values derived in 2nd task and report the change in accuracy.
 
 ### Brief description about the files present in this repository:-
-1. gaussian_process.py - It is the python file to perform regression done in tasks 1 and 3
-2. max_likelihood_estimator.py - This file is to infer the gaussian parameters by minimizing the cost function
+1. gaussian_process_task1.py - It is the python file to perform regression by assuming parameters as done in task 1.
+2. max_likelihood_estimator.py - This file is to infer the gaussian parameters by minimizing the cost function as stated in task 2
+3. gaussian_process_task3.py - It is the python file to perform regression by using parameters estimated in task 2.
 3. data.mat - It is the given input mat file that contains input_train, target_train, input_val, target_val and input_test files
